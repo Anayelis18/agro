@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho - Programa de Educação no Campo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .container p {
+            text-align: justify;
+            line-height: 1.8;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2 {
+            color: #28a745;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "▹";
+            color: #28a745;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agrinho - Programa de Educação no Campo</h1>
+    </header>
+    <div class="container">
+        <img src="https://via.placeholder.com/600x300" alt="Imagem ilustrativa do Agrinho">
+        <h2>O que é o Agrinho?</h2>
+        <p>O Agrinho é um programa educacional voltado para o campo, que tem como objetivo promover a educação ambiental, saúde, cidadania e cooperação entre crianças e adolescentes.</p>
+
+        <h2>Objetivos do Programa</h2>
+        <ul>
+            <li>Promover a conscientização ambiental.</li>
+            <li>Incentivar práticas de sustentabilidade.</li>
+            <li>Desenvolver hábitos saudáveis.</li>
+            <li>Estimular a participação cidadã.</li>
+        </ul>
+
+        <h2>Como Participar?</h2>
+        <p>Para participar do Agrinho, escolas e alunos podem se inscrever através do site oficial do programa ou entrar em contato com as secretarias de educação locais.</p>
+
+        <h2>Benefícios para os Participantes</h2>
+        <p>Os participantes do Agrinho têm acesso a materiais didáticos, cursos de capacitação para professores e prêmios para as melhores práticas sustentáveis desenvolvidas nas escolas.</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Agrinho - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
